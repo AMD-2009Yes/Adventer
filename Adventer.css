@@ -1,0 +1,172 @@
+body{
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+.navigation{
+    padding: 10px;
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.item_menu{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 100px;
+}
+.item_menu a{
+    text-decoration: none;
+    color: rgb(17, 0, 65);
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0,8s ease-in-out;
+}
+.item_menu a:hover{
+    background-color: rgb(255, 211, 252);
+}
+.sub_menu{
+    list-style: none;
+    position: absolute;
+    top: 0;
+    background-color: rgb(209, 90, 92);
+    padding: 10px;
+    box-shadow: 5px 3px 2px rgb(75, 27, 28);
+    left: 100%;
+    display: none;
+}
+.item_menu:hover .sub_menu{
+    display: block;
+}
+.sub_menu li{
+    padding: 3px;
+    margin-top: 4px;
+}
+.logo{
+    font-size: 32px;
+    color: rgb(34, 41, 5);
+    font-weight: 1000;
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #befffb;
+}
+.start{
+    background-color: #abfbf5;
+    margin: auto;
+    padding-left: 20px;
+}
+.us{
+    display: flex;
+}
+.plane{
+   text-align: left;
+   width: 500x;
+   height: 300px;
+   padding: 10px; 
+}
+.begin_background{
+    background:url(https://avatars.mds.yandex.net/i?id=6663eff2c9a698c76bbbf2b0d1c23b02b0f0a4b1-5139440-images-thumbs&n=13) ;
+    padding: 20px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.photo{
+   text-align: left;
+   width: 100x;
+   height: 350px; 
+   border: 10px solid;
+}
+.picture{
+    padding-top: 100px;
+}
+.china_background{
+    background:url(https://avatars.mds.yandex.net/i?id=c39f597e99c3530766f2f476390bfd2e407e035c-5233058-images-thumbs&n=13);
+    margin: auto;
+    padding: 20px;
+}
+.china{
+    text-align: center;
+    margin: auto;
+    color: #d1ff65;
+    padding: 40px;
+}
+.india_background{
+    background:url(https://avatars.mds.yandex.net/i?id=46c0f184a72b4f9ecb0ec5c1fdd2cd2bb74639da-9052390-images-thumbs&n=13);
+    margin: auto;
+    padding: 20px;
+}
+.india{
+    text-align: start;
+    margin: auto;
+    color: #ffffff;
+    padding: 40px;
+}
+
+.japan_background{
+    background:url(https://avatars.mds.yandex.net/i?id=f150c0bccbbbf73648482004668958f7b67412b6-9706270-images-thumbs&n=13);
+    margin: auto;
+    padding: 20px;
+}
+.japan{
+    text-align: left;
+    color: #1c016d;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+table{
+    text-align: left;
+    font-size: 20px;
+    border: 3px solid; 
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+td{
+    padding: 10px;
+    border: 5px solid; 
+}
+th{
+    padding: 10px;
+    border: 5px solid; 
+}
+.hottel_background{
+    background:url(https://avatars.mds.yandex.net/i?id=c710a60dd64c6389268b591375d71f45972cfb18-16485978-images-thumbs&n=13);
+    margin: auto;
+    padding: 20px;
+    display: flex;
+}
+.hottel{
+    font-size: 25px;
+    color: #ff894e;
+    padding: 25px;
+}
+.final{
+    background-color: #50c654;
+    margin: auto;
+    padding-left: 20px;
+}
+footer{
+    background-color: #d4ffd5;
+    margin: auto;
+    padding: 20px;
+    
+}
+.end{
+    padding-right: 40px;
+}
